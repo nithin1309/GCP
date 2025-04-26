@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retail Information Chatbot</title>
+  <style>
+    body {
+      background-color: #fff8e1;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ff6f00;
+      color: white;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    main {
+      padding: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>Retail Information Chatbot</header>
+  <main>
+    <p>Need answers about retail information? Ask your question below and let the chatbot assist you!</p>
+  </main>
+
+  <!-- ✅ Updated Dialogflow Messenger Embed -->
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="RetailPro"
+    agent-id="1c12e60f-dfa2-4f2e-95c5-cb518d999b09"
+    language-code="en"
+  ></df-messenger>
+</body>
+</html>
